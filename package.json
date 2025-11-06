@@ -1,0 +1,33 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iProCop/defender-game.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "ProCop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iProCop/defender-game/issues"
+  },
+  "homepage": "https://github.com/iProCop/defender-game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "eslint": "^8.57.1"
+  },
+  "dependencies": {
+    "core-js": "^3.46.0"
+  }
+}
